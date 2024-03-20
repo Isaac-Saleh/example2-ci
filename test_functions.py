@@ -14,7 +14,7 @@ def test_subtract():
     assert subtract(2, 3) == -1
 
 def test_divide():
-    assert divide(5, 3) == 8
+    assert divide(16, 2) == 8 #The result 8 was incorrect for the intergers 5 and 3.
 
 # uncomment the following test in step 11
 def test_convert_fahrenheit_to_celsius():
